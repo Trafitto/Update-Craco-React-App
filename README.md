@@ -13,7 +13,7 @@ One day at work I found myself having to update the dependencies of a project, s
 - FROM `axios: ^0.21.1` TO `axios: ^0.25.0`
 - FROM `react: ^16.13.1` TO `react: ^17.0.2`
 - FROM `react-dom: ^16.13.1` TO `react-dom: ^17.0.2`
-- FROM `redux": ^4.0.5` TO `redux: ^4.1.2`
+- FROM `redux: ^4.0.5` TO `redux: ^4.1.2`
 - FROM `swr: ^0.2.3` TO `swr: ^1.2.0`
 - FROM `@reduxjs/toolkit: ^1.5.0` TO `@reduxjs/toolkit: ^1.7.1`
 - FROM `@types/node: ^14.0.14` TO `@types/node: ^16.11.21`
