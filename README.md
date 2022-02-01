@@ -108,6 +108,36 @@ If you have
 // @ts-ignore
  ```
 
+## Service Worker
+
+You may need to update the service-worker.ts file and add serviceWorkerRegistration.ts
+
+Then in your index.tsx change
+
+From this
+```
+import * as serviceWorker from './service-worker'
+
+.
+.
+.
+
+serviceWorker.unregister()
+```
+
+To
+
+```
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+
+.
+.
+.
+
+serviceWorkerRegistration.unregister();
+```
+
+
 
 ### NOTE
 
